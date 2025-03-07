@@ -4,6 +4,8 @@ export const testIds = {
     sampleParagraph: 'sample-paragraph',
     clickButton: 'click-button',
     textInput: 'text-input',
+    firstNameLabel: 'firstName-label',
+    questionLabel: 'question-label',
     displayArea: 'display-area',
     showMessageCheckbox: 'show-message-checkbox',
     showMessageLabel: 'show-message-label',

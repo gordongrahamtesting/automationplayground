@@ -6,7 +6,25 @@
 </head>
 <body>
     <div id="app" data-testid="app-container">
+        <h1 data-testid="main-heading">My Heading</h1>
+        <p data-testid="sample-paragraph">If you click this you are cool</p>
+        <button data-testid="click-button">Click Me</button>
+        <div class="input-container"> <label data-testid="firstName-label">First Name</label>
+            <input data-testid="text-input" type="text" placeholder="First Name">
         </div>
+        <div data-testid="display-area"></div>
+        <div class="checkbox-container">
+            <label data-testid="question-label">Do you like cheese?</label>
+            <input data-testid="show-message-checkbox" type="checkbox" />
+            <label for="show-message-checkbox" data-testid="show-message-label">Show Message?</label>
+        </div>
+        <div data-testid="conditional-message">Check you out (pun intended)</div>
+        <select data-testid="option-select">
+            <option value="Cheese">Cheese</option>
+            <option value="Bacon">Bacon</option>
+        </select>
+        <div data-testid="selected-option-display"></div>
+    </div>
     <script src="./dist/bundle.js"></script>
 </body>
 </html>
